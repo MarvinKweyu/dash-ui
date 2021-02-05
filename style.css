@@ -27,3 +27,14 @@ button{
  .routing{
      border-right: 1px solid #b1b7bc;
  }
+.time-card{
+    height: 20vh;
+}
+ .weather-card{
+     height: 40vh;
+     background-image: url('images/clouds.jpg');
+ }
+
+ .card-header-title{
+     color: white;
+ }
