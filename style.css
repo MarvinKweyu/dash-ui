@@ -1,5 +1,29 @@
-.patience{
-    display: flex;
-    align-items: center;
+:root {
+    --main-background:#7f8992;
+    --card-background: #959da4;
+    --selected-card-color: #7c96a1;
+    --selected-route-color: #76adbc;
+    --bottom-nav-color: #686f76;
+  }
 
+body{
+      height: 100vh;
+      background: var(--main-background);
+  }
+
+button{
+    background-color: var(--selected-card-color);
+    border: #e1e7e9;
 }
+
+.card{
+      background: var(--card-background);
+      border: 0.4px solid #b1b7bc;
+  }
+
+ .bottom-nav{
+     background: var(--bottom-nav-color);
+ }
+ .routing{
+     border-right: 1px solid #b1b7bc;
+ }

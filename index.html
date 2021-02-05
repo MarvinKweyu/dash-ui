@@ -4,21 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>DashUI</title>
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
-            <h1 class="title">
-                DashUI
-            </h1>
-            <p class="subtitle">
-                Base template!
-            </p>
-        </div>
-    </section>
+    <div class="container is-fluid">
+        <br>
+        <div class="is-flex is-justify-content-space-between">
+            <button class="button is-primary is-medium is-outlined">iHome</button>
+            <div style="background: white;">
+                <span class="icon">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                </span>
 
+                <span class="icon">
+                    <i class=" fa fa-bell-o" aria-hidden="true"></i>
+                </span>
+
+                <span class="icon">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                </span>
+
+                <span class="icon">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        <br>
+        <div class="columns">
+            <div class="column">
+                <div class="card mb-3">
+                    <header class="card-header">
+                        <p class="card-header-title" style="color: white;">
+                            All Rooms
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </header>
+                </div>
+
+                <div class="card mb-3">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            08:57 AM
+                        </p>
+                        <div class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                            </span>
+                            </button>
+                    </header>
+                </div>
+
+                <div class="card mb-3">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            show the weather
+                        </p>
+                    </header>
+                </div>
+            </div>
+            <div class="column is-two-thirds">
+                <section>
+                    <div class="column is-fluid">
+                        <div class="columns">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Lights
+                                    </p>
+                                </header>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Thermostat
+                                    </p>
+                                </header>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Cameras
+                                    </p>
+                                </header>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    Find your way back
+                </section>
+            </div>
+        </div>
+        <section class="columns bottom-nav">
+            <div class="column routing">Home</div>
+            <div class="column routing">Media</div>
+            <div class="column routing">Sensors</div>
+            <div class="column routing">Security</div>
+        </section>
+    </div>
 </body>
 
 </html>
