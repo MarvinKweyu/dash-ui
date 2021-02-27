@@ -7,7 +7,7 @@
   }
 
 body{
-      height: 100vh;
+      height: 100vh !important;
       background: var(--main-background);
   }
 
@@ -37,4 +37,31 @@ button{
 
  .card-header-title{
      color: white;
+ }
+
+ .music-detail{
+    border-bottom: 0.4px solid #b1b7bc;
+
+ }
+
+ .configs{
+     height: 25vh;
+ }
+
+ .album-name{
+     font-weight: lighter;
+     color: #ffffff;
+ }
+
+ .artist-name{
+    color: #ffffff;
+ }
+
+ .media-control{
+     background:#a6adb5;
+ }
+
+ .home-footer{
+    color: #74adb6;
+    border-top:2px solid #74adb6;
  }
