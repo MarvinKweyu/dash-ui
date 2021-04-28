@@ -10,6 +10,9 @@ body{
       height: 100vh !important;
       background: var(--main-background);
   }
+  /* *{
+    background: var(--main-background);  
+  } */
 
 button{
     background-color: var(--selected-card-color);
@@ -26,6 +29,7 @@ button{
  }
  .routing{
      border-right: 1px solid #b1b7bc;
+     color: #ffffff;
  }
 .time-card{
     height: 20vh;
@@ -63,5 +67,5 @@ button{
 
  .home-footer{
     color: #74adb6;
-    border-top:2px solid #74adb6;
+    border-top:4px solid #74adb6;
  }
